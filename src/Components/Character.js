@@ -4,9 +4,12 @@ function Character () {
     const [character, setCharacter] = useState("");
     return (
         <div>
-            <h1>LIVE CHARACTER COUNT</h1>
-            <textarea
-            value={}
+           <textarea
+             value={text}
+            onChange={(e) => setText(e.target.value)}
+            placeholder="Enter something"
+            rows="15"
+           />
         </div>
     )
 }
