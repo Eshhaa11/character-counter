@@ -4,7 +4,7 @@ import "./Character.css";
 function Character() {
   const [character, setCharacter] = useState("");
   return (
-    <div>
+    <div className="cont">
       <textarea
         value={character}
         onChange={(e) => setCharacter(e.target.value)}
