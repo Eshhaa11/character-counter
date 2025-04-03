@@ -1,3 +1,8 @@
-* {
-    background-color: #005A9C ;
+.cont {
+    text-align: center;
+    background: #005A9C;
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 90px auto;
 }
