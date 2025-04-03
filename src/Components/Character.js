@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Character.css'
 
 function Character () {
     const [character, setCharacter] = useState("");
