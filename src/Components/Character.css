@@ -7,6 +7,9 @@
     margin: 90px auto;
 }
 
+.h1 {
+    color: white;
+}
 textarea {
     color: white;
     width: 100%;
