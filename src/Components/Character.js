@@ -6,8 +6,8 @@ function Character () {
     return (
         <div>
            <textarea
-             value={text}
-            onChange={(e) => setText(e.target.value)}
+             value={character}
+            onChange={(e) => setCharacter(e.target.value)}
             placeholder="Enter something"
             rows="15"
            />
