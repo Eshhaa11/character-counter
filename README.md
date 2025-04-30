@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/character.jpg)
+
 # 📝 Live Character Counter (React)
 
 A simple React application that counts the number of characters entered into a text area in real-time. This project is beginner-friendly and demonstrates the use of **React Hooks (`useState`)**.
